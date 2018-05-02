@@ -2,9 +2,9 @@ import React from 'react'
 
 import MainContent from '../../components/layout/MainContent';
 
-const Home = () => (
+const Home = ({match, location, history}) => (
   <div>
-    <MainContent title="Welcome">
+    <MainContent title="Welcome" match={match} location={location} history={history}>
       Welcome to Yet Another RV 10 build website.
     </MainContent>
   </div>

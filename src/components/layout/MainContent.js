@@ -29,8 +29,6 @@ class MainContent extends Component {
 
   render() {
     const { classes, children } = this.props;
-    console.log(children)
-
     return(
       <div className={classes.main}>
         {this.title()}
@@ -42,7 +40,6 @@ class MainContent extends Component {
 
 MainContent.propTypes = {
   classes: PropTypes.object.isRequired,
-  children: PropTypes.object.isRequired,
 };
 
 export default withStyles(styles)(MainContent);

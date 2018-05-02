@@ -8,7 +8,7 @@ class NavBar extends Component {
     return (
       <div>
         <Toolbar>
-          <Button color="primary" href="/">Home</Button>
+          <Button color="primary" href="/#">Home</Button>
           <Button color="primary" href="/#about">Who are the Builders</Button>
           <Button color="primary" href="/#build">Build Log</Button>
         </Toolbar>
