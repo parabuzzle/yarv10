@@ -34,11 +34,17 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: yarn test
+      - run:
+          name: Jest Suite
+          command: yarn test -- --ci --testResultsProcessor="jest-junit"
+          environment:
+            JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
 
       # Deploy to gh-pages
       - run: git config --global user.email "parabuzzle@gmail.com"
       - run: git config --global user.name "Mike Heijmans"
       - run: yarn deploy
+
+
 
 

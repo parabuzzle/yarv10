@@ -1,0 +1,22 @@
+<testsuites name="jest tests" tests="5" failures="0" time="2.3">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-02T19:15:34" time="1.637" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.096">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-02T19:15:36" time="0.192" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-02T19:15:36" time="0.159" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.011">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-02T19:15:36" time="0.155" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2018-05-02T19:15:36" time="0.157" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.01">
+    </testcase>
+  </testsuite>
+</testsuites>
