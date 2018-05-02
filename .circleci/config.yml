@@ -37,6 +37,8 @@ jobs:
       - run: yarn test
 
       # Deploy to gh-pages
+      - run: git config --global user.email "parabuzzle@gmail.com"
+      - run: git config --global user.name "Mike Heijmans"
       - run: yarn deploy
 
 
