@@ -5,6 +5,8 @@
 
 # testing
 /coverage
+__snapshots__
+*.snap
 
 # production
 /build
