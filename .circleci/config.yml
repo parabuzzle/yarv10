@@ -38,8 +38,11 @@ jobs:
           name: Jest Suite
           command: yarn test -- --ci --testResultsProcessor="jest-junit"
 
+      - run: mkdir test_results
+      - run: mv junit.xml test_results/results.xml
+
       - store_test_results:
-          path: junit.xml
+          path: test_results
 
       # Deploy to gh-pages
       - run: git config --global user.email "parabuzzle@gmail.com"
