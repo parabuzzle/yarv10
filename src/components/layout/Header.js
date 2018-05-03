@@ -20,6 +20,7 @@ const styles = {
   },
   icon: {
     margin: '0.25em',
+    marginTop: '0.5em',
     fontSize: '2em',
     transform: 'scaleX(-1)',
   },
@@ -27,6 +28,7 @@ const styles = {
     fontFamily: "'Indie Flower', cursive",
     fontSize: '2em',
     fontWeight: 'bold',
+    marginTop: '0.5em',
   },
 };
 
