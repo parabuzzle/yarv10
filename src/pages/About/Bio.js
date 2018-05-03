@@ -10,15 +10,18 @@ const styles = theme => ({
     marginBottom: '0.5em',
   },
   avatar: {
-    width: 150,
-    height: 150,
+    float: 'left',
+    margin: '1em',
+    width: 100,
+    height: 100,
   },
   headline: {
     marginBottom: '0.5em',
+    textDecoration: 'underline',
   },
 });
 
-const Bio = ({classes, name, avatar, children}) => (
+const Bio = ({classes, name, avatar, children, textAlign}) => (
   <div className={classes.root}>
     <Avatar src={avatar} className={classes.avatar}/>
     <Typography variant="headline" className={classes.headline}>
